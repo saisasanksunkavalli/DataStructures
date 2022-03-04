@@ -1,2 +1,2 @@
 # DataStructures
-This repository consists of Various DataStructure Implementations &amp; its problems
+This repository consists of various DataStructure Implementations &amp; its related problems
