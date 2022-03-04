@@ -1,19 +1,33 @@
-
+/**
+ * Implemented Stack DataStructure Using a LinkedList
+ */
 class Stack {
     var linkedList: LinkedList = LinkedList()
 
+    /**
+     * Pushes the element to the Stack
+     */
     fun push(num: Int) {
         linkedList.add(num)
     }
 
+    /**
+     * Pops the element from the Stack & returns the Popped Element
+     */
     fun pop(): Int {
         return linkedList.remove()
     }
 
+    /**
+     * Returns the top element of the Stack. Will return -1 if the Stack is Empty
+     */
     fun top(): Int {
         return linkedList.top()
     }
 
+    /**
+     * Method to determine if the Stack is empty or not
+     */
     fun isEmpty(): Boolean {
         return linkedList.isEmpty()
     }
